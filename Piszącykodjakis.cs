@@ -30,7 +30,7 @@ internal class Piszącykodjakis
 
         Console.WriteLine("Mag ---> wpisz '2'");
 
-        Console.WriteLine("Egzorcysta ---> wpisz '3'");
+        Console.WriteLine("Żul ---> wpisz '3'");
 
         Console.WriteLine("Demon ---> wpisz '4'");
 
@@ -83,6 +83,10 @@ internal class Piszącykodjakis
                 bohater = new Player(imie_boh);
 
                 nazwa_klasy = "Demon";
+
+                bohater.Health -= 20
+                    
+                bohater.Damage += 20
 
                 break;
 
