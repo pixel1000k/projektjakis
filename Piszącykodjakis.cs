@@ -84,9 +84,9 @@ internal class Piszącykodjakis
 
                 nazwa_klasy = "Demon";
 
-                bohater.Health -= 20
+                bohater.Health -= 20;
                     
-                bohater.Damage += 20
+                bohater.Damage += 20;
 
                 break;
 
